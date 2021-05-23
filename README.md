@@ -12,12 +12,12 @@ Command:
 
 Arguments:
 
-    $eleTag    unique element object tag (integer)
-    $nodeTags  node tags from start to end (integer)
-    $matTag    uniaxial material tag (integer)
-    $A         cross-sectional area (double)
+*  $eleTag    unique element object tag (integer)
+*  $nodeTags  node tags from start to end (integer)
+*  $matTag    uniaxial material tag (integer)
+*  $A         cross-sectional area (double)
 
-### Example 
+Example:
 
 The following example constructs a multi-node truss element of tag **1** with three sub-elements connecting nodes **2**, **3**, **4**, and **5** with a constant area of **2.5** and a uniaxial material tag of **6**:
 
