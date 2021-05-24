@@ -2,7 +2,7 @@
 
 This is a repository for the source codes associated with the implementation of the ***continuous multi-node truss element formulation*** in [OpenSees](https://github.com/OpenSees/OpenSees). 
 
-The continuous multi-node truss element formulation enables simulation of a continuous cable/rope/wire with angular deviations while maintaining a uniform axial strain/force over its entire length. To this end, this element mormulation allows discretizing the cable/rope/wire into multiple truss sub-elements with arbitrary directions, though all these sub-elements are represented via a single multi-node element formulation and have idential axial strain/force. Both two- and three-dimensional versions of the formulation have been implemented and both use *co-rotational* geometric transformations to capture through-analysis changes to the length/direction of the truss sub-elements.
+The continuous multi-node truss element formulation enables simulation of a continuous cable/rope/wire with angular deviations while maintaining a uniform axial strain/force over its entire length. To this end, this element formulation allows discretizing the cable/rope/wire into multiple truss sub-elements with arbitrary directions, yet all these sub-elements are represented via a single multi-node element formulation and have identical axial strain/force. Both two- and three-dimensional versions of the formulation have been implemented and both use *co-rotational* geometric transformations to capture through-analysis changes to the length/direction of the truss sub-elements.
 
 ## Tcl Command
 
